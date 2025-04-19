@@ -1,5 +1,5 @@
 # REST-API service for BrickGame series
-![Brickgame](misc/images/brickgame.jpeg)
+![Brickgame](misc/images/brickgame.jpg)
 
 ## Description:
 
@@ -12,6 +12,8 @@ Also, Race should be accessible in a console interface written in C and a deskto
 Games are services (in Spring application terminology). Race is connected to the server "directly", snake and tetris via the JNA mechanism.
 
 Access from the console and desktop interface is provided by a small client library written in C, which encapsulates calls to the server and parsing of JSON into C structures.
+
+![Architecture](misc/images/architecture.jpg)
 
 ## Install
 Project contains C/C++ code, so ```gcc``` and ```g++``` must be installed
