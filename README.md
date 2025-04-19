@@ -1,5 +1,7 @@
 # REST-API service for BrickGame series
-![Brickgame](misc/images/brickgame.jpg)
+<div align="center">
+  <img src="misc/images/brickgame.jpg" width="300" height="300">
+</div>
 
 ## Description:
 
