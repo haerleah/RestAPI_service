@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./game.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrickGame v3.0</title>
+</head>
+
+<body>
+
+<div id="topmostDiv" class="topmost-div" style="display: none">
+    <div id="topmostLabel" class="label"></div>
+</div>
+
+<h1 id="title"></h1>
+<div id="game" style="display: none">
+    <div id="game-board"></div>
+    <div id="side-panel dashboard-text">
+        <div id="score">
+            <p>Highest score: <span id="highestScore"></span></p>
+            <p>Score: <span id="currentScore"></span></p>
+            <p>Level: <span id="level"></span></p>
+            <p>Speed: <span id="speed"></span></p>
+            <p>Next:</p>
+            <div id="next-board"></div>
+            <p>
+            <button id="pauseButton" style="font-size: 15px">Pause Game</button>
+            </p>
+            <p>
+            <button id="exitGame" style="font-size: 15px;">Exit Game</button>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="initialMenu">
+    <div style="font-size: 36px; font-family: Arial, sans-serif; margin-bottom: 10px">Select game</div>
+    <div id="buttonsList"></div>
+</div>
+</body>
+</html>

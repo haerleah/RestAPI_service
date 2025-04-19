@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/textures">
+        <file>smallwall.png</file>
+        <file>leftup.png</file>
+        <file>leftdown.png</file>
+        <file>rightup.png</file>
+        <file>tailup.png</file>
+        <file>tailright.png</file>
+        <file>tailleft.png</file>
+        <file>taildown.png</file>
+        <file>headup.png</file>
+        <file>headright.png</file>
+        <file>headleft.png</file>
+        <file>headdown.png</file>
+        <file>food.png</file>
+        <file>up.png</file>
+        <file>right.png</file>
+        <file>left.png</file>
+        <file>down.png</file>
+        <file>tetris.png</file>
+        <file>rightdown.png</file>
+        <file>blueblock.png</file>
+        <file>yellowblock.png</file>
+        <file>redblock.png</file>
+        <file>greenblock.png</file>
+        <file>cyanblock.png</file>
+        <file>purpleblock.png</file>
+        <file>orangeblock.png</file>
+    </qresource>
+    <qresource prefix="/gifs">
+        <file>tetback.gif</file>
+        <file>brickgame.gif</file>
+    </qresource>
+</RCC>
